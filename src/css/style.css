@@ -1,0 +1,119 @@
+.page-container{
+    width:98%;
+}
+/* HOME */
+.metaverse-char{
+    width: 100%;
+    z-index: 0 !important;
+}
+.home-buttons{
+    display: flex;
+    flex-direction: row;
+}
+.home-buttons button{
+    margin-left: 1rem;
+}
+/* HOME END */
+.big-title{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff !important;
+    margin: auto;
+    max-width: 90%;
+}
+.like .content{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.token-li{
+    font-weight: bold;
+}
+.token-li span{
+    font-weight: normal;
+    color: #e6dada;
+}
+.like p{
+    margin: 0;
+}
+.video{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    z-index: 0 !important;
+}
+.video .video-container{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    z-index: 0 !important;
+    
+}
+.video .video-container video{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 0 !important;
+}
+.video .video-overlay{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+.video-overlay .video-text{
+    color:#ff3998;
+    font-weight: bold;
+}
+.token .GeneratedMarquee {
+    font-size:80px;
+    font-weight:bold;
+    line-height:1.3em;
+    color:#ff3998;
+}
+.roadmap-li{
+    font-weight: bold;
+    color: #050620;
+}
+
+.roadmap-img{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 2rem;
+    margin: auto;
+    box-shadow: #b90e61 0px 0px 40px;
+}
+.box-shadow:hover{
+    box-shadow: #b90e61 0px 0px 40px;
+}
+.sign-image{
+    width: 100%;
+    height: 100%;
+}
+.nav-link:hover{
+    color: #ff3998 !important;
+}
+.super-rare .cards .card:hover{
+    box-shadow: #b90e61 0px 0px 30px;
+}
+footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body{
+    font-family:"Inter", sans-serif !important;
+}
+.home-button{
+    width: 50%;
+    height: 5rem;
+    font-size: medium;
+}

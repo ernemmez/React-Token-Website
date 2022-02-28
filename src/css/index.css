@@ -1,0 +1,13 @@
+@import "./base/base.css";
+ @import "./components/scrollToTop.css";
+ @import "./components/navbar.css";
+ @import "./components/footer.css";
+ @import "./components/card.css";
+ @import "./sections/home.css";
+ @import "./sections/free.css";
+ @import "./sections/clients.css";
+ @import "./sections/superRare.css";
+ @import "./sections/release.css";
+ @import "./sections/signup.css";
+ @import "./sections/like.css";
+ 

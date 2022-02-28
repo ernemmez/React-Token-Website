@@ -1,0 +1,101 @@
+.free {
+  position: relative;
+  margin: 5rem 0;
+}
+.free .container {
+  display: flex;
+  background-color: var(--orange);
+  position: relative;
+  min-height: 25rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  z-index: 1;
+}
+.free .container .background {
+  z-index: -1;
+}
+.free .container .background .ellipse {
+  position: absolute;
+  height: 100%;
+  width: 28rem;
+  border-radius: 100%;
+  filter: blur(100px);
+}
+.free .container .background .pink {
+  top: -10%;
+  left: -15%;
+  background-color: var(--pink);
+}
+.free .container .background .green {
+  top: -10%;
+  right: -15%;
+  background-color: var(--green);
+}
+.free .container .content {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-top: 3rem;
+  padding-left: 5rem;
+  font-size: 1.3rem;
+}
+.free .container .content .title {
+  font-size: 2rem;
+}
+.free .cards {
+  display: flex;
+  position: absolute;
+  top: -2rem;
+  right: 40%;
+}
+.free .cards .card1 {
+  top: 0;
+  position: absolute;
+  transform: rotate(-10deg);
+  z-index: 3;
+  font-size: 0.6rem;
+}
+.free .cards .card1 .card-image img {
+  height: 10rem;
+  width: 12rem;
+}
+.free .cards .card2 {
+  top: 0;
+  z-index: 2;
+  position: absolute;
+  left: 10rem;
+  transform: rotate(5deg);
+  font-size: 0.7rem;
+}
+.free .cards .card2 .card-image img {
+  height: 10rem;
+}
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+  .free {
+    margin: 0;
+ }
+  .free .container {
+    padding: 1rem 2rem;
+    height: 40vh;
+    border-radius: 0;
+ }
+  .free .container .background .pink {
+    left: -70%;
+ }
+  .free .container .background .green {
+    right: -100%;
+ }
+  .free .container .content {
+    padding: 0;
+    font-size: 16px;
+    gap: 1rem;
+ }
+  .free .container .content .title {
+    font-size: 22px;
+ }
+  .free .cards .card1, .free .cards .card2 {
+    zoom: 0.3;
+ }
+}

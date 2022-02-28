@@ -1,0 +1,36 @@
+.like {
+  margin: 5rem 0;
+}
+.like .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+.like .container .content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem;
+  border-radius: 2rem;
+}
+.like .container .content .title {
+  color: var(--accent-color1);
+}
+.like .container .content .description {
+  color: var(--accent-color3);
+  letter-spacing: 0.1rem;
+  line-height: 1.5rem;
+}
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+  .like {
+    margin: 0;
+ }
+  .like .container {
+    grid-template-columns: 1fr;
+    gap: 0;
+ }
+  .like .container .content {
+    padding: 1rem 2rem;
+    border-radius: 0;
+ }
+}

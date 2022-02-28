@@ -1,0 +1,190 @@
+.wrapper {
+    width: 400px;
+    height: 400px;
+    background: #fc5b3f;
+    margin: 100px auto;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    transform: rotate(36deg);
+  }
+  .wrapper .d1 {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: -200px;
+    left: -200px;
+    transform: rotate(0deg);
+  }
+  .wrapper .d1 div {
+    width: 800px;
+    height: 800px;
+  }
+  .wrapper .d1 div:after {
+    content: "";
+    width: 0;
+    height: 0;
+    display: block;
+    border: solid transparent;
+    border-width: 400px;
+    border-top-color: #fc5b3f;
+    position: relative;
+    transform: scaleX(0.72654);
+  }
+  .wrapper .d1 div span {
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 34%;
+    font-size: 12px;
+    text-align: center;
+    z-index: 100;
+    color: #fff;
+    transform: rotate(-36deg);
+  }
+  .wrapper .d2 {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: -200px;
+    left: -200px;
+    transform: rotate(63deg);
+  }
+  .wrapper .d2 div {
+    width: 800px;
+    height: 800px;
+  }
+  .wrapper .d2 div:after {
+    content: "";
+    width: 0;
+    height: 0;
+    display: block;
+    border: solid transparent;
+    border-width: 400px;
+    border-top-color: #fcb03c;
+    position: relative;
+    transform: scaleX(0.50953);
+  }
+  .wrapper .d2 div span {
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 34%;
+    font-size: 12px;
+    text-align: center;
+    z-index: 100;
+    color: #fff;
+    transform: rotate(-99deg);
+  }
+  .wrapper .d3 {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: -200px;
+    left: -200px;
+    transform: rotate(117deg);
+  }
+  .wrapper .d3 div {
+    width: 800px;
+    height: 800px;
+  }
+  .wrapper .d3 div:after {
+    content: "";
+    width: 0;
+    height: 0;
+    display: block;
+    border: solid transparent;
+    border-width: 400px;
+    border-top-color: #6fb07f;
+    position: relative;
+    transform: scaleX(0.50953);
+  }
+  .wrapper .d3 div span {
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 34%;
+    font-size: 12px;
+    text-align: center;
+    z-index: 100;
+    color: #fff;
+    transform: rotate(-153deg);
+  }
+  .wrapper .d4 {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: -200px;
+    left: -200px;
+    transform: rotate(193.5deg);
+  }
+  .wrapper .d4 div {
+    width: 800px;
+    height: 800px;
+  }
+  .wrapper .d4 div:after {
+    content: "";
+    width: 0;
+    height: 0;
+    display: block;
+    border: solid transparent;
+    border-width: 400px;
+    border-top-color: #068587;
+    position: relative;
+    transform: scaleX(1.17085);
+  }
+  .wrapper .d4 div span {
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 34%;
+    font-size: 12px;
+    text-align: center;
+    z-index: 100;
+    color: #fff;
+    transform: rotate(-229.5deg);
+  }
+  .wrapper .d5 {
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: -200px;
+    left: -200px;
+    transform: rotate(283.5deg);
+  }
+  .wrapper .d5 div {
+    width: 800px;
+    height: 800px;
+  }
+  .wrapper .d5 div:after {
+    content: "";
+    width: 0;
+    height: 0;
+    display: block;
+    border: solid transparent;
+    border-width: 400px;
+    border-top-color: #1a4f63;
+    position: relative;
+    transform: scaleX(0.85408);
+  }
+  .wrapper .d5 div span {
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 34%;
+    font-size: 12px;
+    text-align: center;
+    z-index: 100;
+    color: #fff;
+    transform: rotate(-319.5deg);
+  }
+  
+  body {
+    background: #111;
+  }
+  

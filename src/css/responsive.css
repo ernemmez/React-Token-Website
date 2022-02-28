@@ -1,0 +1,74 @@
+@media screen and (max-width: 768px) {
+    .video .video-overlay{
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+    .video .big-title{
+        font-size: 1.5rem;
+    }
+    .video .video-text{
+        font-size: 0.8rem;
+    }
+    .mobile-sections{
+        width: 90%;
+        margin: auto;
+        border-radius: 10px !important;
+        -webkit-border-radius: 10px !important;
+        -moz-border-radius: 10px !important;
+        -ms-border-radius: 10px !important;
+        -o-border-radius: 10px !important;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        padding: 0.5rem;
+    }
+    .mobile-sections .container, .content{
+        border-radius: 10px !important;
+        -webkit-border-radius: 10px !important;
+        -moz-border-radius: 10px !important;
+        -ms-border-radius: 10px !important;
+        -o-border-radius: 10px !important;
+    }
+    .like .content {
+        width: 80% !important;
+        box-sizing: border-box;
+        margin: auto !important;
+        padding: 1rem;
+    }
+    .like .content2 .chart {
+       width: 90% !important;
+       height: 10rem !important;
+       box-sizing: border-box;
+       margin: auto !important;
+       margin-top: 3rem !important;
+    }
+    .signup{
+        margin: auto;
+        margin-top: 19rem !important;
+    }
+    .home .description{
+        z-index: +40 !important;
+    }
+    .metaverse-char{
+        width:auto;
+        z-index: 0 !important;
+    }
+    .home-button{
+        width: 50%;
+        height: 5rem;
+        font-size: x-small;
+    }
+    .free .cards{
+        display: none;
+    }
+    .free .description{
+        font-size: medium;
+    }
+    .super-rare .cards .card{
+        width: 23.75rem !important;
+    }
+    .sign-image{
+        width: auto;
+    }
+    
+}

@@ -1,0 +1,122 @@
+.releases {
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.releases .release {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 0.5rem;
+}
+.releases .release .content {
+  padding: 5rem 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.releases .release .content .title {
+  font-size: 2rem;
+}
+.releases .release .content .description {
+  font-size: 1.3rem;
+}
+.releases .release .content .description a {
+  color: black;
+  font-weight: bold;
+}
+.releases .release .content .link {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  gap: 1rem;
+}
+.releases .release .content .link svg {
+  font-size: 1.2rem;
+}
+.releases .release .image {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.releases .release .image img {
+  height: 24rem;
+}
+.releases .release .image .ellipse {
+  z-index: -1;
+  position: absolute;
+  bottom: -40%;
+  right: 0;
+  height: 20rem;
+  width: 20rem;
+  filter: blur(100px);
+}
+.releases .release .image .pink {
+  background-color: var(--pink);
+}
+.releases .release .card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.releases .release .card-container .card-image img {
+  height: 14rem;
+}
+.releases .release .card-container .ellipse {
+  z-index: -1;
+  position: absolute;
+  bottom: -45%;
+  left: 0;
+  height: 20rem;
+  width: 20rem;
+  filter: blur(100px);
+}
+.releases .release .card-container .orange {
+  background-color: var(--orange);
+}
+.releases .orange {
+  background-color: var(--orange);
+}
+.releases .green {
+  background-color: var(--green);
+}
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+  .releases {
+    margin: 0;
+    gap: 0;
+ }
+  .releases .release {
+    border-radius: 0;
+    grid-template-columns: 1fr;
+    padding: 1rem 2rem;
+    gap: 2rem;
+ }
+  .releases .release:nth-of-type(1) .image {
+    grid-row: 1;
+ }
+  .releases .release .content {
+    padding: 0;
+ }
+  .releases .release .image {
+    zoom: 0.5;
+ }
+  .releases .release .card-container {
+    zoom: 0.5;
+ }
+  .releases .release .ellipse {
+    display: none !important;
+ }
+}
+@media screen and (max-width: 768px) {
+  .image {
+    overflow: visible !important;
+ }
+}
