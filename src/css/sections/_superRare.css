@@ -33,7 +33,6 @@
     overflow: auto;
     justify-content: flex-start;
     gap: 2rem;
-	border: 1px solid red;
  }
   .super-rare .cards::-webkit-scrollbar {
     display: none;
