@@ -13,7 +13,7 @@ export default function Navbar({ changeTheme, currentTheme }) {
     <nav>
       <div className="brand-container">
         <div className="brand">
-          <img src={logo} alt="logo" />
+         <h2 className="text-white">LOGO</h2>
         </div>
         <div className="toggle-container">
           <div className="toggle">

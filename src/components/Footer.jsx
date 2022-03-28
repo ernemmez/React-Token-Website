@@ -32,7 +32,7 @@ export default function Footer() {
       <div className="upper">
         <div className="brand-container">
           <div className="brand">
-            <img src={logo} alt="logo" />
+            <h2 className="text-white">LOGO</h2>
           </div>
           <p>Step into the Future!</p>
           <ul>

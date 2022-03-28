@@ -1,6 +1,5 @@
 import React from "react";
 import home from "../assets/home.png";
-import Malik from "./Malik";
 import Video from "./Video";
 export default function Home() {
   return (
